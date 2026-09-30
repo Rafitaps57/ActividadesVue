@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 
 const props = defineProps({
-  product: {
+  producto: {
     type: Object,
     required: true
   }
@@ -15,23 +15,23 @@ const precioCLP = computed(() => {
     style: 'currency',
     currency: 'CLP',
     maximumFractionDigits: 0
-  }).format(props.product.precio)
+  }).format(props.producto.precio)
 })
 </script>
 
 <template>
     <article class="card">
         <img class="card_img"
-            :src="props.product.imagen"
-            :alt="props.product.nombre"
+            :src="props.producto.imagen"
+            :alt="props.producto.nombre"
             loading="lazy"
         />
         <div class="card_body">
-            <span class="card_cat">{{ producto.categoria }}</span>
-            <h3 class="card_title">{{ producto.nombre }}</h3>
+            <span class="card_cat">{{ props.producto.categoria }}</span>
+            <h3 class="card_title">{{ props.producto.nombre }}</h3>
             <p class="card_price">{{ precioCLP }}</p>
 
-            <button class="card_btn" @click="$emit('ver-detalle', producto)">Ver detalle</button>
+            <button class="card_btn" @click="$emit('ver-detalle', props.producto)">Ver detalle</button>
         </div>
     </article>
 </template>
