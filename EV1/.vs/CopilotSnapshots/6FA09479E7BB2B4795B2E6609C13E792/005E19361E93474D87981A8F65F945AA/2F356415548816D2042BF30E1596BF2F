@@ -1,0 +1,75 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+
+namespace EV1
+{
+    public partial class Form3 : Form
+    {
+        public Form3()
+        {
+            InitializeComponent();
+        }
+        private void button1_Click(object sender, EventArgs e)
+        { 
+            textBox1.Hide();
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Show();
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox2.Invalidate();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                MessageBox.Show("radioButton1 fue seleccionado");
+            }
+            else if (radioButton2.Checked)
+            {
+                MessageBox.Show("radioButton2 fue seleccionado");
+            }
+            else if (radioButton3.Checked)
+            {
+                MessageBox.Show("radioButton3 fue seleccionado");
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            //while (int i = 1; i++)
+            {
+                //textBox3.Text = ();
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedItem != null)
+            {
+                int anioNacimiento = Convert.ToInt32(comboBox1.SelectedItem);
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            
+        }
+    }
+}

@@ -1,0 +1,14 @@
+C:\Users\rafaa\source\repos\EV1\EV1\bin\Debug\EV1.exe.config
+C:\Users\rafaa\source\repos\EV1\EV1\bin\Debug\EV1.exe
+C:\Users\rafaa\source\repos\EV1\EV1\bin\Debug\EV1.pdb
+C:\Users\rafaa\source\repos\EV1\EV1\obj\Debug\EV1.csproj.AssemblyReference.cache
+C:\Users\rafaa\source\repos\EV1\EV1\obj\Debug\EV1.Properties.Resources.resources
+C:\Users\rafaa\source\repos\EV1\EV1\obj\Debug\EV1.csproj.GenerateResource.cache
+C:\Users\rafaa\source\repos\EV1\EV1\obj\Debug\EV1.csproj.CoreCompileInputs.cache
+C:\Users\rafaa\source\repos\EV1\EV1\obj\Debug\EV1.exe
+C:\Users\rafaa\source\repos\EV1\EV1\obj\Debug\EV1.pdb
+C:\Users\rafaa\source\repos\EV1\EV1\obj\Debug\EV1.Login_Rafael_Aruti.resources
+C:\Users\rafaa\source\repos\EV1\EV1\obj\Debug\EV1.Form2.resources
+C:\Users\rafaa\source\repos\EV1\EV1\obj\Debug\EV1.Form3.resources
+C:\Users\rafaa\source\repos\EV1\EV1\obj\Debug\EV1.Form4.resources
+C:\Users\rafaa\source\repos\EV1\EV1\obj\Debug\EV1.Form5.resources
