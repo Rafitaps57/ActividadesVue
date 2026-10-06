@@ -1,7 +1,7 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import servicioCard from '../components/serviciocard.vue'
-import { servicios } from '../data/servicios'
+import { servicios } from '../data/servicios.js'
 
 const textoBusqueda = ref('')
 const categoria = ref('Todas')

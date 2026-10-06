@@ -1,0 +1,38 @@
+export const servicios = [
+  {
+    id: 1,
+    nombre: 'Taller de Alfarería Tradicional',
+    categoria: 'Talleres',
+    descripcion: 'Aprende las técnicas ancestrales de moldeado e hilado en greda negra tradicionales de la zona de Quinchamalí.',
+    precio: 25000,
+    disponible: true,
+    imagen: 'https://via.placeholder.com/300x200?text=Alfareria'
+  },
+  {
+    id: 2,
+    nombre: 'Visita Guiada por la Ruta del Vino',
+    categoria: 'Turismo',
+    descripcion: 'Recorrido completo por los viñedos más antiguos de la Región de Ñuble con degustación de cepas patrimoniales.',
+    precio: 45000,
+    disponible: true,
+    imagen: 'https://via.placeholder.com/300x200?text=Ruta+del+Vino'
+  },
+  {
+    id: 3,
+    nombre: 'Restauración de Textiles Antiguos',
+    categoria: 'Artesanía',
+    descripcion: 'Servicio profesional de conservación y reparación de telares y bordados artesanales.',
+    precio: 30000,
+    disponible: false,
+    imagen: 'https://via.placeholder.com/300x200?text=Textiles'
+  },
+  {
+    id: 4,
+    nombre: 'Cata de Mieles Orgánicas de Ñuble',
+    categoria: 'Gastronomía',
+    descripcion: 'Experiencia sensorial interactiva para degustar mieles multiflorales y monoflorales de la cordillera.',
+    precio: 18000,
+    disponible: true,
+    imagen: 'https://via.placeholder.com/300x200?text=Cata+Miel'
+  }
+]

@@ -5,28 +5,24 @@ import Navbar from './components/Navbar.vue'
 
 <template>
   <div id="app" class="page">
-    <!-- Navegación principal -->
     <Navbar />
 
-    <!-- Hero Header general de la aplicación -->
     <header class="hero">
       <div>
         <p class="eyebrow">Evaluación N° 2 · Vue.js Router</p>
-        <h1>Feria Artesanal de Ñuble</h1>
+        <h1>Servicios del Ñuble</h1>
         <p class="hero__text">
           Explora los servicios y productos elaborados por emprendedores locales.
         </p>
       </div>
     </header>
 
-    <!-- Área dinámica de las Vistas (Inicio, Servicios, Favoritos, Contacto, etc.) -->
     <main class="contenido-principal">
       <RouterView />
     </main>
 
-    <!-- Footer adaptado -->
     <footer class="footer">
-      <p>Feria Artesanal de Ñuble · Actividad 11 / EV2</p>
+      <p>Servicios del Ñuble · Actividad 11 / EV2</p>
     </footer>
   </div>
 </template>
