@@ -1,4 +1,5 @@
 <script setup>
+//aqui esta difinido
 defineProps({
   servicio: {
     type: Object,
