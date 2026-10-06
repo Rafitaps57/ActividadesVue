@@ -9,10 +9,10 @@ import Navbar from './components/Navbar.vue'
 
     <header class="hero">
       <div>
-        <p class="eyebrow">Evaluación N° 2 · Vue.js Router</p>
+        <p class="eyebrow">Evaluación N° 2 · Vue.js · Ingeniería Web</p>
         <h1>Servicios del Ñuble</h1>
         <p class="hero__text">
-          Explora los servicios y productos elaborados por emprendedores locales.
+          Explora los servicios producidos por emprendedores locales.
         </p>
       </div>
     </header>
@@ -22,7 +22,7 @@ import Navbar from './components/Navbar.vue'
     </main>
 
     <footer class="footer">
-      <p>Servicios del Ñuble · Actividad 11 / EV2</p>
+      <p>Servicios del Ñuble ·  EV2 Ingeniería Web</p>
     </footer>
   </div>
 </template>

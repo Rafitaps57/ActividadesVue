@@ -6,7 +6,7 @@ export const servicios = [
     descripcion: 'Aprende las técnicas ancestrales de moldeado e hilado en greda negra tradicionales de la zona de Quinchamalí.',
     precio: 25000,
     disponible: true,
-    imagen: 'https://via.placeholder.com/300x200?text=Alfareria'
+    imagen: 'img/alfaferia.jpg'
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const servicios = [
     descripcion: 'Recorrido completo por los viñedos más antiguos de la Región de Ñuble con degustación de cepas patrimoniales.',
     precio: 45000,
     disponible: true,
-    imagen: 'https://via.placeholder.com/300x200?text=Ruta+del+Vino'
+    imagen: 'img/colcha2.jpg'
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const servicios = [
     descripcion: 'Servicio profesional de conservación y reparación de telares y bordados artesanales.',
     precio: 30000,
     disponible: false,
-    imagen: 'https://via.placeholder.com/300x200?text=Textiles'
+    imagen: 'img/Textil.jpg'
   },
   {
     id: 4,
@@ -33,6 +33,6 @@ export const servicios = [
     descripcion: 'Experiencia sensorial interactiva para degustar mieles multiflorales y monoflorales de la cordillera.',
     precio: 18000,
     disponible: true,
-    imagen: 'https://via.placeholder.com/300x200?text=Cata+Miel'
+    imagen: 'img/mielcata.jpg'
   }
 ]
