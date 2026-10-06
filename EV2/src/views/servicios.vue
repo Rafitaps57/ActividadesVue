@@ -3,7 +3,6 @@ import { ref, computed, onMounted } from 'vue'
 import servicioCard from '../components/serviciocard.vue'
 import { servicios } from '../data/servicios'
 
-// Vinculación directa con los controles
 const textoBusqueda = ref('')
 const categoria = ref('Todas')
 const favoritos = ref([])
@@ -16,7 +15,6 @@ const categorias = computed(() => {
   return ['Todas', ...new Set(servicios.map(p => p.categoria))]
 })
 
-// Filtrado reactivo en tiempo real con v-model
 const serviciosFiltrados = computed(() => {
   return servicios.filter(servicio => {
     const coincideTexto = servicio.nombre
@@ -73,7 +71,6 @@ onMounted(() => {
       </select>
     </div>
 
-    <!-- v-if / v-else -->
     <div v-if="serviciosFiltrados.length" class="servicios-grid">
       <servicioCard
         v-for="servicio in serviciosFiltrados"
